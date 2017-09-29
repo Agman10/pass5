@@ -7,6 +7,10 @@ main {
     width: 80%;
 }
 
+img{
+    border: 5px solid black;
+}
+
 .topimg{
     height: 250px;
     margin: 0 auto;
@@ -15,3 +19,43 @@ main {
     border: 5px solid Red;
 }
 
+
+
+h1{
+    font-size: ;
+    text-align: center;
+}
+
+#hej_text{
+    font-size: 90px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    width: 300px;
+    
+}
+#hej_text:hover{
+    color: pink;
+    animation: 1s linear infinite placeholdername;
+}
+
+h2{
+    text-align: center;
+}
+
+h2 {
+    animation: 5s linear infinite placeholdername;
+}
+
+@keyframes placeholdername {
+    00% {
+        color: red;
+    }
+    50% {
+        color: green;
+    }
+    100% {
+        color: blue;
+    }
+}
