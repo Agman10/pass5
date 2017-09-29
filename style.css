@@ -1,0 +1,17 @@
+body {
+    font-size: 16px;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.topimg{
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    border: 5px solid Red;
+}
+
